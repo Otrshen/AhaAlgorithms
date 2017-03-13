@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C75BF4341E6858320008FA3B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C75BF4331E6858320008FA3B /* main.c */; };
+		C771A1481E76C04C002B17F4 /* lianbao.c in Sources */ = {isa = PBXBuildFile; fileRef = C771A1461E76C04C002B17F4 /* lianbao.c */; };
 		C78C85901E6C3B46006BEAE0 /* maopao.c in Sources */ = {isa = PBXBuildFile; fileRef = C78C858E1E6C3B46006BEAE0 /* maopao.c */; };
 		C78C85931E6C3BC8006BEAE0 /* quicksort.c in Sources */ = {isa = PBXBuildFile; fileRef = C78C85911E6C3BC8006BEAE0 /* quicksort.c */; };
 		C78C85961E6D9B96006BEAE0 /* zhan.c in Sources */ = {isa = PBXBuildFile; fileRef = C78C85941E6D9B96006BEAE0 /* zhan.c */; };
@@ -29,6 +30,8 @@
 /* Begin PBXFileReference section */
 		C75BF4301E6858320008FA3B /* maopao */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = maopao; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75BF4331E6858320008FA3B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C771A1461E76C04C002B17F4 /* lianbao.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lianbao.c; sourceTree = "<group>"; };
+		C771A1471E76C04C002B17F4 /* lianbao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lianbao.h; sourceTree = "<group>"; };
 		C78C858E1E6C3B46006BEAE0 /* maopao.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = maopao.c; sourceTree = "<group>"; };
 		C78C858F1E6C3B46006BEAE0 /* maopao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maopao.h; sourceTree = "<group>"; };
 		C78C85911E6C3BC8006BEAE0 /* quicksort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = quicksort.c; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 				C78C85951E6D9B96006BEAE0 /* zhan.h */,
 				C78C85971E717B78006BEAE0 /* diaoyu.c */,
 				C78C85981E717B78006BEAE0 /* diaoyu.h */,
+				C771A1461E76C04C002B17F4 /* lianbao.c */,
+				C771A1471E76C04C002B17F4 /* lianbao.h */,
 			);
 			path = maopao;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			files = (
 				C78C85961E6D9B96006BEAE0 /* zhan.c in Sources */,
 				C78C85901E6C3B46006BEAE0 /* maopao.c in Sources */,
+				C771A1481E76C04C002B17F4 /* lianbao.c in Sources */,
 				C78C85991E717B78006BEAE0 /* diaoyu.c in Sources */,
 				C75BF4341E6858320008FA3B /* main.c in Sources */,
 				C78C85931E6C3BC8006BEAE0 /* quicksort.c in Sources */,

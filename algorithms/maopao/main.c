@@ -11,13 +11,15 @@
 #include "quicksort.h"
 #include "zhan.h"
 #include "diaoyu.h"
+#include "lianbao.h"
 
 int main(int argc, const char * argv[]) {
     
 //    maopao1();
 //    operation();
 //    zhan();
-    diaoyu();
+//    diaoyu();
+    sxm_lianbao();
     return 0;
 }
 
